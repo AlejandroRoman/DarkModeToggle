@@ -1,6 +1,6 @@
 # DarkModeToggler
 ---
-<img align="right" width="100" height="100" src="https://github.com/AlejandroRoman/DarkModeToggle/Demo.jpeg">
+<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AlejandroRoman/DarkModeToggle/Master/Demo.jpeg">
 Set the system's Dark Mode status.
 <br>
 <br>
