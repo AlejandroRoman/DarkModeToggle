@@ -8,7 +8,8 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 <br>
 <br>
 Sample implementation(s):
-
+<br>
+<br>
 ```
 hs.loadSpoon("DarkModeToggle")
 spoon.DarkModeToggle:statusMenuIcon(true)      -- show icon in status menu
@@ -40,14 +41,14 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 
 | [bindHotkeys](#bindHotkeys) |                                 |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:bindHotkeys()` |
+| **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [consoleToolbarItem](#consoleToolbarItem)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:consoleToolbarItem( [visible, [index] ] ) -> boolean or spoon object or nil` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
