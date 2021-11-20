@@ -8,8 +8,10 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 <br>
 <br>
 Sample implementation(s):
+
 <br>
 <br>
+
 ```
 hs.loadSpoon("DarkModeToggle")
 spoon.DarkModeToggle:statusMenuIcon(true)      -- show icon in status menu
