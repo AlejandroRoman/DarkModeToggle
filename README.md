@@ -3,7 +3,7 @@
 
 Set the system's Dark Mode status.
 
-Download: [https://github.com/..this leads nowhere](https://github.dotzip)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 Includes an optional menubar icon and a Hammerspoon console toolbar item.
 
