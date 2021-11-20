@@ -38,11 +38,54 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 ## API Documentation
 ### Methods
 
-| [bindHotkeys](#bindHotkeys)         |                                                                                     |
-| --------------------------------------------|-------------------------------------------------------------------------------------|
-| **Signature**   | `DarkModeToggler:bindHotkeys()`                                                                    |
-| **Type**        | Method                                                                     |
-| **Description** | ...                                                                     |
-| **Notes**       | ...                                                                     |
+| [bindHotkeys](#bindHotkeys) |                                 |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:bindHotkeys()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
 
-| [consoleToolbarItem](#consoleToolbarItem)         |                                                                                     |
+| [consoleToolbarItem](#consoleToolbarItem)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+| [darkMode](#darkMode)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+| [isSystemDark](#isSystemDark)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+| [statusMenuIcon](#statusMenuIcon)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+| [systemDarkMode](#systemDarkMode)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+| [toggleDarkMode](#toggleDarkMode)  |                  |
+| ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggler:()` |
+| **Type**                    | Method                          |
+| **Description**             | ...                             |
+| **Notes**                   | ...                             |
+
+
+
