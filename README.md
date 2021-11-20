@@ -3,8 +3,10 @@
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
 Set the system's Dark Mode status.
 <br>
+<br>
 Includes an optional menubar icon and a Hammerspoon console toolbar item.
-
+<br>
+<br>
 Sample implementation(s):
 
 ```
