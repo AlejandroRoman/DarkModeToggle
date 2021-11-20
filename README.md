@@ -1,4 +1,4 @@
-# DarkModeToggler
+# DarkModeToggle
 ---
 <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AlejandroRoman/DarkModeToggle/Master/Demo.jpeg">
 Set the system's Dark Mode status.
@@ -40,49 +40,49 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 
 | [bindHotkeys](#bindHotkeys) |                                 |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:bindHotkeys()` |
+| **Signature**               | `DarkModeToggle:bindHotkeys()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [consoleToolbarItem](#consoleToolbarItem)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [darkMode](#darkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [isSystemDark](#isSystemDark)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [statusMenuIcon](#statusMenuIcon)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [systemDarkMode](#systemDarkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
 
 | [toggleDarkMode](#toggleDarkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggler:()` |
+| **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
 | **Notes**                   | ...                             |
