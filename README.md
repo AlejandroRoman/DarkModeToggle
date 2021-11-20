@@ -14,8 +14,10 @@ Sample implementation(s):
 
 ```
 hs.loadSpoon("DarkModeToggle")
-spoon.DarkModeToggle:statusMenuIcon(true)      -- show icon in status menu
-spoon.DarkModeToggle:consoleToolbarItem(true)  -- show toolbar item in HS console
+-- show icon in status menu
+spoon.DarkModeToggle:statusMenuIcon(true)
+-- show toolbar item in HS console
+spoon.DarkModeToggle:consoleToolbarItem(true)
 ```
 ```
 hs.loadSpoon("DarkModeToggle")
