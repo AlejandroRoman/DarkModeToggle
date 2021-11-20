@@ -40,9 +40,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 
 | [bindHotkeys](#bindHotkeys)         |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
-| **Signature**                               | `DarkModeToggler:bindHotkeys()`                                                                    |
-| **Type**                                    | Method                                                                     |
-| **Description**                             | ...                                                                     |
-| **Notes**                             | ...                                                                     |
+| **Signature**   | `DarkModeToggler:bindHotkeys()`                                                                    |
+| **Type**        | Method                                                                     |
+| **Description** | ...                                                                     |
+| **Notes**       | ...                                                                     |
 
 | [consoleToolbarItem](#consoleToolbarItem)         |                                                                                     |
