@@ -42,6 +42,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 ## API Documentation
 ### Methods
 
+[API-OverviewLink](#api-overview)
+
+
 | [bindHotkeys](#bindHotkeys) |                                 |
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
