@@ -35,10 +35,10 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 
 ## API Overview
 
- * Methods - API calls which can only be made on an object returned by a constructor
-              * [bindHotkeys](#bindHotkeys)
-                  * Sub-nested bullet etc
-              * [consoleToolbarItem](#consoleToolbarItem)
+* Methods - API calls which can only be made on an object returned by a constructor
+    * [bindHotkeys](#bindHotkeys)
+        * Sub-nested bullet etc
+    * [consoleToolbarItem](#consoleToolbarItem)
 
 * Methods - API calls which can only be made on an object returned by a constructor
 * [bindHotkeys](#bindHotkeys)
