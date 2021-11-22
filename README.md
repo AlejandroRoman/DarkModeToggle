@@ -42,9 +42,6 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 ## API Documentation
 ### Methods
 ### [bindHotkeys](#bindHotkeys)
-| [bindHotkeys](#bindHotkeys) |                                 |
-
-
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -53,9 +50,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Returns**                 | * None                             |
 | **Notes**                   | * The action performed by the toggle Dark Mode binding is based on the curent setting of the system, which is the same as the value returned by systemDarkMode()<br> * The mapping table is a table of one or more key-value pairs of the format:<br>`command = { { modifiers }, key }` where:<br> - `command` is one of the commands listed above<br> - `modifiers` is a table containing keyboard modifiers, as specified in hs.hotkey.bind()<br> - `key` is a string containing the name of a keyboard key, as specified in hs.hotkey.bind()                            |
 
-| [consoleToolbarItem](#consoleToolbarItem)  |                  |
-| ----------------------------|---------------------------------|
+### [consoleToolbarItem](#consoleToolbarItem)
 | **Signature**               | `DarkModeToggle:consoleToolbarItem([visible, [index]]) -> boolean/spoon/nil` |
+| :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
 | **Description**             | Query or enable the visibility of this spoon's toolbar item in the Hammerspoon console.                             |
 | **Parameters**              | * An optional boolean indicating the state of the toolbar item's visibility.<br>* If the visibility parameter passed is true, an optional index specifying the position where the toolbar item should be placed.                             |
