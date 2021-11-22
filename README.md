@@ -56,8 +56,8 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:consoleToolbarItem([visible, [index]]) -> boolean/spoon/nil` |
 | **Type**                    | Method                          |
 | **Description**             | Query or enable the visibility of this spoon's toolbar item in the Hammerspoon console.                             |
-| **Parameters**              | ...                             |
-| **Returns**                 | ...                             |
+| **Parameters**              | * An optional boolean indicating the state of the toolbar item's visibility.<br>* If the visibility parameter passed is true, an optional index specifying the position where the toolbar item should be placed.                             |
+| **Returns**                 | * If no parameters are sent, a boolean indicating the current visibility of the toolbar item.<br> * If the visibility parameter is specified, returns the spoon object itself or nil if an error occurred.                             |
 | **Notes**                   | ...                             |
 
 | [darkMode](#darkMode)  |                  |
