@@ -66,7 +66,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Type**                    | Method                          |
 | **Description**             | Get or set the current state of the Dark Mode theme for following three targets simultaneously:<br>* The macOS system for the current user.<br>* The Hammerspoon console.<br>* The Hammerspoon preferences panel.                             |
 | **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
-| **Returns**                 | * If a mode is specified, the method will return the DarkModeToggle spoon object.                             |
+| **Returns**                 | * If a mode is specified, the method will return the DarkModeToggle spoon object.<br> * If no mode parameter is passed, this method will return three booleans indicating respectively the Dark Mode status for each of the three targets listed previously.                             |
 
 | [isSystemDark](#isSystemDark)|                                |
 | ----------------------------|---------------------------------|
@@ -98,7 +98,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:toggleDarkMode() -> spoon object` |
 | **Type**                    | Method                          |
 | **Description**             | Toggle the current state of the Dark Mode theme for following three targets simultaneously:                             |
-| **Parameters**              | None                            |
+| **Parameters**              | * None                            |
 | **Returns**                 | * The DarkModeToggle object.      |
 | **Notes**                   | * The target mode of the toggle action is based on the current Dark Mode state of the operating system                             |
 
