@@ -75,7 +75,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Notes**                   | * This method is a simply a wrapper of hs.host.interfaceStyle() except it returns a boolean instead of "Dark"/nil.                             |
 
 #### [statusMenuIcon](#statusMenuIcon)
-| **Signature**               | `DarkModeToggle:statusMenuIcon( [visible, [enableDropdown] ] ) -> boolean or spoon object or nil` |
+| **Signature**               | `DarkModeToggle:statusMenuIcon( [visible, [enableDropdown] ] ) -> boolean/spoon/nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
 | **Description**             | Query or set the visibility of this spoon's status menubar icon.                             |
