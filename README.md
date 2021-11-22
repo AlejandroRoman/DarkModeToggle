@@ -9,21 +9,16 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 <br>
 
 Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
-<br>
-<br>
 
 Sample implementation(s):
 
-<br>
-<br>
-
+**Toggle Dark Mode by clicking on icons in status menu or HS console toolbar:
 ```
-hs.loadSpoon("DarkModeToggle")
--- show icon in status menu
-spoon.DarkModeToggle:statusMenuIcon(true)
--- show toolbar item in HS console
+hs.loadSpoon("DarkModeToggle")            -- show icon in status menu
+spoon.DarkModeToggle:statusMenuIcon(true) -- show toolbar item in HS console
 spoon.DarkModeToggle:consoleToolbarItem(true)
 ```
+**Configure key binding to toggle Dark Mode:**
 ```
 hs.loadSpoon("DarkModeToggle")
 -- Toggle Dark Mode with ⌘ + ⌥ + ^ + D
