@@ -25,14 +25,6 @@ hs.loadSpoon("DarkModeToggle")
 spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 ```
 
-
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2
-
-
-
 ## API Overview
 
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -46,11 +38,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
     * [systemDarkMode](#systemDarkMode)
     * [toggleDarkMode](#toggleDarkMode)
 
-
-
-## API Documentation
-### Methods
-### [bindHotkeys](#bindHotkeys)
+## **API Documentation**
+### **Methods**
+#### **[bindHotkeys](#bindHotkeys)**
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -59,7 +49,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Returns**                 | * None                             |
 | **Notes**                   | * The action performed by the toggle Dark Mode binding is based on the curent setting of the system, which is the same as the value returned by systemDarkMode()<br> * The mapping table is a table of one or more key-value pairs of the format:<br>`command = { { modifiers }, key }` where:<br> - `command` is one of the commands listed above<br> - `modifiers` is a table containing keyboard modifiers, as specified in hs.hotkey.bind()<br> - `key` is a string containing the name of a keyboard key, as specified in hs.hotkey.bind()                            |
 
-### [consoleToolbarItem](#consoleToolbarItem)
+#### [consoleToolbarItem](#consoleToolbarItem)
 | **Signature**               | `DarkModeToggle:consoleToolbarItem([visible, [index]]) -> boolean/spoon/nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -68,7 +58,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Returns**                 | * If no parameters are sent, a boolean indicating the current visibility of the toolbar item.<br> * If the visibility parameter is specified, returns the spoon object itself or nil if an error occurred.                             |
 | **Notes**                   | * If the visibility parameter is set to true and an index is not specified, the spoon's toolbar item will be placed at the beginning (leftmost) position of the Hammerspoon console's toolbar items.                             |
 
-### [darkMode](#darkMode)
+#### [darkMode](#darkMode)
 | **Signature**               | `DarkModeToggle:darkMode([mode]) -> boolean(s) or spoon object` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -76,7 +66,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
 | **Returns**                 | * If a mode is specified, the method will return the DarkModeToggle spoon object.<br> * If no mode parameter is passed, this method will return three booleans indicating respectively the Dark Mode status for each of the three targets listed previously.                             |
 
-### [isSystemDark](#isSystemDark)
+#### [isSystemDark](#isSystemDark)
 | **Signature**               | `DarkModeToggle:isSystemDark() -> boolean` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -85,7 +75,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Returns**                 | * True if the system is currently set to Dark Mode, false otherwise.                             |
 | **Notes**                   | * This method is a simply a wrapper of hs.host.interfaceStyle() except it returns a boolean instead of "Dark"/nil.                             |
 
-### [statusMenuIcon](#statusMenuIcon)
+#### [statusMenuIcon](#statusMenuIcon)
 | **Signature**               | `DarkModeToggle:statusMenuIcon( [visible, [enableDropdown] ] ) -> boolean or spoon object or nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -93,7 +83,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Parameters**              | * An optional boolean indicating the state of the status menubar icon's visibility.<br> * If the visibility parameter passed is true, an optional booolean indicating if dropdown menu functionality should be enabled (true). Default value is false.                            |
 | **Returns**                 | * If no parameters are sent, a boolean indicating the current visibility of the menubar item. If the visibility parameter was specified, the spoon object itself or nil if an error occurred.                             |
 
-### [systemDarkMode](#systemDarkMode)
+#### [systemDarkMode](#systemDarkMode)
 | **Signature**               | `DarkModeToggle:systemDarkMode([mode]) -> boolean or spoon object` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
@@ -101,7 +91,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
 | **Returns**                 | * If no mode parameter is passed, this method will return a boolean indicating if the system's Dark Mode theme is enabled.<br> * If a mode is specified, this method will return the DarkModeToggle spoon object.                             |
 
-### [toggleDarkMode](#toggleDarkMode)
+#### [toggleDarkMode](#toggleDarkMode)
 | **Signature**               | `DarkModeToggle:toggleDarkMode() -> spoon object` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
