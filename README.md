@@ -37,17 +37,14 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 
 * Methods - API calls which can only be made on an object returned by a constructor
     * [bindHotkeys](#bindHotkeys)
-        * Sub-nested bullet etc
     * [consoleToolbarItem](#consoleToolbarItem)
-
-* Methods - API calls which can only be made on an object returned by a constructor
-* [bindHotkeys](#bindHotkeys)
-* [consoleToolbarItem](#consoleToolbarItem)
-* [darkMode](#darkMode)
-* [isSystemDark](#isSystemDark)
-* [statusMenuIcon](#statusMenuIcon)
-* [systemDarkMode](#systemDarkMode)
-* [toggleDarkMode](#toggleDarkMode)
+    * [bindHotkeys](#bindHotkeys)
+    * [consoleToolbarItem](#consoleToolbarItem)
+    * [darkMode](#darkMode)
+    * [isSystemDark](#isSystemDark)
+    * [statusMenuIcon](#statusMenuIcon)
+    * [systemDarkMode](#systemDarkMode)
+    * [toggleDarkMode](#toggleDarkMode)
 
 
 
