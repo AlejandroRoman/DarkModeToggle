@@ -102,9 +102,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:toggleDarkMode() -> spoon object` |
 | **Type**                    | Method                          |
 | **Description**             | Toggle the current state of the Dark Mode theme for following three targets simultaneously:                             |
-| **Parameters**              | None                             |
-| **Returns**                 | ...                             |
-| **Notes**                   | ...                             |
+| **Parameters**              | None                            |
+| **Returns**                 | The DarkModeToggle object.      |
+| **Notes**                   | The target mode of the toggle action is based on the current Dark Mode state of the operating system                             |
 
 
 
