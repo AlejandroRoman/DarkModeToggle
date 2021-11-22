@@ -56,52 +56,52 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:consoleToolbarItem([visible, [index]]) -> boolean/spoon/nil` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
-| **Parameters                | ...                             |
+| **Description**             | Query or enable the visibility of this spoon's toolbar item in the Hammerspoon console.                             |
+| **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [darkMode](#darkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:darkMode([mode]) -> boolean(s) or spoon object` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
+| **Description**             | Get or set the current state of the Dark Mode theme for following three targets simultaneously:                             |
 | **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [isSystemDark](#isSystemDark)|                                |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:isSystemDark() -> boolean` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
+| **Description**             | Get the current state of the system's Dark Mode theme.                             |
 | **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [statusMenuIcon](#statusMenuIcon)|                            |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:statusMenuIcon( [visible, [enableDropdown] ] ) -> boolean or spoon object or nil` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
+| **Description**             | Query or set the visibility of this spoon's status menubar icon.                             |
 | **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [systemDarkMode](#systemDarkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:systemDarkMode([mode]) -> boolean or spoon object` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
+| **Description**             | Get or set the current state of the Dark Mode theme for the current user of the macOS system.                             |
 | **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [toggleDarkMode](#toggleDarkMode)  |                  |
 | ----------------------------|---------------------------------|
-| **Signature**               | `DarkModeToggle:()` |
+| **Signature**               | `DarkModeToggle:toggleDarkMode() -> spoon object` |
 | **Type**                    | Method                          |
-| **Description**             | ...                             |
+| **Description**             | Toggle the current state of the Dark Mode theme for following three targets simultaneously:                             |
 | **Parameters**              | ...                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
