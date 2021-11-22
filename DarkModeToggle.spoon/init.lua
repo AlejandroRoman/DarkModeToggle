@@ -194,8 +194,8 @@ function obj:consoleToolbarItem(mode,index)
 					numOfItems = numOfItems - 1
 				end
 
-				if index > numOfItems then
-					index = numOfItems
+				if index > numOfItems + 1 then
+					index = numOfItems + 1
 				end
 				if index < 1 then
 					index = 1
