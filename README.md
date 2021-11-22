@@ -1,5 +1,4 @@
 # DarkModeToggle
----
 <img align="right" width="256" height="160" src="https://raw.githubusercontent.com/AlejandroRoman/DarkModeToggle/Master/Demo.gif">
 Set the system's Dark Mode status.
 <br>
@@ -38,9 +37,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
     * [systemDarkMode](#systemDarkMode)
     * [toggleDarkMode](#toggleDarkMode)
 
-## **API Documentation**
-### **Methods**
-#### **[bindHotkeys](#bindHotkeys)**
+## API Documentation
+### Methods
+#### [bindHotkeys](#bindHotkeys)
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | :----------------------------| :---------------------------------|
 | **Type**                    | Method                          |
