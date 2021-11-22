@@ -48,7 +48,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | **Type**                    | Method                          |
 | **Description**             | Binds hotkeys for DarkModeToggle
-Parameters:
+Parameters:|
 * mapping - A table containing hotkey modifier/key details for one or more of the following commands:|
 || "enable" - Enable System Dark Mode (including Hammerspoon's console and preferences window) |
 ||"disable" - Disable Dark Mode|
