@@ -49,7 +49,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Description**             | Binds hotkeys for DarkModeToggle|
 | **Parameters**              | * `mapping` - A table containing hotkey modifier/key details for one or more of the following key value pairs:<br>* *enable* - Enable System Dark Mode<br>* *disable* - Disable Dark Mode<br>* *toggle* - Toggle Dark Mode<br>|
 | **Returns**                 | * None                             |
-| **Notes**                   | ...                             |
+| **Notes**                   | * The action performed by the toggle Dark Mode binding is based on the curent setting of the system, which is the same as the value returned by systemDarkMode()<br> * The mapping table is a table of one or more key-value pairs of the format:<br>`command = { { modifiers }, key }` where:<br> - `command` is one of the commands listed above<br> - `modifiers` is a table containing keyboard modifiers, as specified in hs.hotkey.bind()<br> - `key` is a string containing the name of a keyboard key, as specified in hs.hotkey.bind()                            |
 
 | [consoleToolbarItem](#consoleToolbarItem)  |                  |
 | ----------------------------|---------------------------------|
@@ -75,7 +75,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Description**             | Get the current state of the system's Dark Mode theme.                             |
 | **Parameters**              | * None                             |
 | **Returns**                 | * True if the system is currently set to Dark Mode, false otherwise.                             |
-| **Notes**                   | ...                             |
+| **Notes**                   | * This method is a simply a wrapper of hs.host.interfaceStyle() except it returns a boolean instead of "Dark"/nil.                             |
 
 | [statusMenuIcon](#statusMenuIcon)|                            |
 | ----------------------------|---------------------------------|
@@ -84,7 +84,6 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Description**             | Query or set the visibility of this spoon's status menubar icon.                             |
 | **Parameters**              | * An optional boolean indicating the state of the status menubar icon's visibility.<br> * If the visibility parameter passed is true, an optional booolean indicating if dropdown menu functionality should be enabled (true). Default value is false.                            |
 | **Returns**                 | * If no parameters are sent, a boolean indicating the current visibility of the menubar item. If the visibility parameter was specified, the spoon object itself or nil if an error occurred.                             |
-| **Notes**                   | ...                             |
 
 | [systemDarkMode](#systemDarkMode)  |                  |
 | ----------------------------|---------------------------------|
@@ -93,7 +92,6 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Description**             | Get or set the current state of the Dark Mode theme for the current user of the macOS system.                             |
 | **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
 | **Returns**                 | * If no mode parameter is passed, this method will return a boolean indicating if the system's Dark Mode theme is enabled.<br> * If a mode is specified, this method will return the DarkModeToggle spoon object.                             |
-| **Notes**                   | ...                             |
 
 | [toggleDarkMode](#toggleDarkMode)  |                  |
 | ----------------------------|---------------------------------|
