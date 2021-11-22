@@ -47,8 +47,8 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | **Type**                    | Method                          |
 | **Description**             | Binds hotkeys for DarkModeToggle|
-| **Parameters**              | `mapping` - A table containing hotkey modifier/key details for one or more of the following key value pairs:<br>* *enable* - Enable System Dark Mode<br>* *disable* - Disable Dark Mode<br>* *toggle* - Toggle Dark Mode<br>|
-| **Returns**                 | None                             |
+| **Parameters**              | * `mapping` - A table containing hotkey modifier/key details for one or more of the following key value pairs:<br>* *enable* - Enable System Dark Mode<br>* *disable* - Disable Dark Mode<br>* *toggle* - Toggle Dark Mode<br>|
+| **Returns**                 | * None                             |
 | **Notes**                   | ...                             |
 
 | [consoleToolbarItem](#consoleToolbarItem)  |                  |
@@ -58,24 +58,23 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Description**             | Query or enable the visibility of this spoon's toolbar item in the Hammerspoon console.                             |
 | **Parameters**              | * An optional boolean indicating the state of the toolbar item's visibility.<br>* If the visibility parameter passed is true, an optional index specifying the position where the toolbar item should be placed.                             |
 | **Returns**                 | * If no parameters are sent, a boolean indicating the current visibility of the toolbar item.<br> * If the visibility parameter is specified, returns the spoon object itself or nil if an error occurred.                             |
-| **Notes**                   | ...                             |
+| **Notes**                   | * If the visibility parameter is set to true and an index is not specified, the spoon's toolbar item will be placed at the beginning (leftmost) position of the Hammerspoon console's toolbar items.                             |
 
 | [darkMode](#darkMode)  |                  |
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:darkMode([mode]) -> boolean(s) or spoon object` |
 | **Type**                    | Method                          |
-| **Description**             | Get or set the current state of the Dark Mode theme for following three targets simultaneously:                             |
-| **Parameters**              | ...                             |
-| **Returns**                 | ...                             |
-| **Notes**                   | ...                             |
+| **Description**             | Get or set the current state of the Dark Mode theme for following three targets simultaneously:<br>* The macOS system for the current user.<br>* The Hammerspoon console.<br>* The Hammerspoon preferences panel.                             |
+| **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
+| **Returns**                 | * If a mode is specified, the method will return the DarkModeToggle spoon object.                             |
 
 | [isSystemDark](#isSystemDark)|                                |
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:isSystemDark() -> boolean` |
 | **Type**                    | Method                          |
 | **Description**             | Get the current state of the system's Dark Mode theme.                             |
-| **Parameters**              | None                             |
-| **Returns**                 | ...                             |
+| **Parameters**              | * None                             |
+| **Returns**                 | * True if the system is currently set to Dark Mode, false otherwise.                             |
 | **Notes**                   | ...                             |
 
 | [statusMenuIcon](#statusMenuIcon)|                            |
