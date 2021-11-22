@@ -94,8 +94,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Type**                    | Method                          |
 | **Description**             | Get or set the current state of the Dark Mode theme for the current user of the macOS system.                             |
 | **Parameters**              | * An optional boolean, specifying whether Dark Mode should be enabled (true) or disabled (false).                             |
-| **Returns**                 | * If no mode parameter is passed, this method will return a boolean indicating if the system's Dark Mode theme is enabled.<br> * If a mode is specified, this method will return the DarkModeToggle spoon object.
-                             |
+| **Returns**                 | * If no mode parameter is passed, this method will return a boolean indicating if the system's Dark Mode theme is enabled.<br> * If a mode is specified, this method will return the DarkModeToggle spoon object.                             |
 | **Notes**                   | ...                             |
 
 | [toggleDarkMode](#toggleDarkMode)  |                  |
