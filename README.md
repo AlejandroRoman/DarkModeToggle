@@ -75,7 +75,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:isSystemDark() -> boolean` |
 | **Type**                    | Method                          |
 | **Description**             | Get the current state of the system's Dark Mode theme.                             |
-| **Parameters**              | ...                             |
+| **Parameters**              | None                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
@@ -102,7 +102,7 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:toggleDarkMode() -> spoon object` |
 | **Type**                    | Method                          |
 | **Description**             | Toggle the current state of the Dark Mode theme for following three targets simultaneously:                             |
-| **Parameters**              | ...                             |
+| **Parameters**              | None                             |
 | **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
