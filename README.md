@@ -23,7 +23,6 @@ spoon.DarkModeToggle:consoleToolbarItem(true) -- show toolbar item in HS console
 hs.loadSpoon("DarkModeToggle")
 -- Toggle Dark Mode with ⌘ + ⌥ + ^ + D
 spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
-
 ```
 
 
