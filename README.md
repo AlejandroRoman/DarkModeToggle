@@ -49,13 +49,16 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Type**                    | Method                          |
 | **Description**             | Binds hotkeys for DarkModeToggle|
 | **Parameters**              | `mapping` - A table containing hotkey modifier/key details for one or more of the following key value pairs:<br>* *enable* - Enable System Dark Mode<br>* *disable* - Disable Dark Mode<br>* *toggle* - Toggle Dark Mode<br>|
-**Notes**                   | ...                             |
+| **Returns**                 | None                             |
+| **Notes**                   | ...                             |
 
 | [consoleToolbarItem](#consoleToolbarItem)  |                  |
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:consoleToolbarItem([visible, [index]]) -> boolean/spoon/nil` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [darkMode](#darkMode)  |                  |
@@ -63,13 +66,17 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
-| [isSystemDark](#isSystemDark)  |                  |
+| [isSystemDark](#isSystemDark)|             |                  |
 | ----------------------------|---------------------------------|
 | **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [statusMenuIcon](#statusMenuIcon)  |                  |
@@ -77,6 +84,8 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [systemDarkMode](#systemDarkMode)  |                  |
@@ -84,6 +93,8 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 | [toggleDarkMode](#toggleDarkMode)  |                  |
@@ -91,6 +102,8 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 | **Signature**               | `DarkModeToggle:()` |
 | **Type**                    | Method                          |
 | **Description**             | ...                             |
+| **Parameters                | ...                             |
+| **Returns**                 | ...                             |
 | **Notes**                   | ...                             |
 
 
