@@ -12,7 +12,7 @@ Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeT
 
 Sample implementation(s):
 
-**Toggle Dark Mode by clicking on icons in status menu or HS console toolbar:
+**Toggle Dark Mode by clicking on icons in status menu or HS console toolbar:**
 ```
 hs.loadSpoon("DarkModeToggle")            -- show icon in status menu
 spoon.DarkModeToggle:statusMenuIcon(true) -- show toolbar item in HS console
