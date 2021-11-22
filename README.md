@@ -7,8 +7,7 @@ Set the system's Dark Mode status.
 Includes an optional menubar icon and a Hammerspoon console toolbar item.
 <br>
 <br>
-Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](
-https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
+Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
 <br>
 <br>
 
