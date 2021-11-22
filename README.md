@@ -45,8 +45,9 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 [API-OverviewLink](#api-overview)
 
 ## [bindHotkeys](#bindHotkeys)
-| **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
+| bindHotkeys |                                 |
 | ----------------------------|---------------------------------|
+| **Signature**               | `DarkModeToggle:bindHotkeys(mapping) -> nil` |
 | **Type**                    | Method                          |
 | **Description**             | Binds hotkeys for DarkModeToggle|
 | **Parameters**              | * `mapping` - A table containing hotkey modifier/key details for one or more of the following key value pairs:<br>* *enable* - Enable System Dark Mode<br>* *disable* - Disable Dark Mode<br>* *toggle* - Toggle Dark Mode<br>|
