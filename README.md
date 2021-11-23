@@ -10,10 +10,10 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 Installation
 -------
 
-**1)** Download & Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
-* (Homepage: [https://www.hammerspoon.org](https://www.hammerspoon.org))
+**1) Download & Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)**
+* Homepage: [https://www.hammerspoon.org](https://www.hammerspoon.org)
 
-**2)** Download & Install the DarkModeToggle Spoon:
+**2) Download & Install the DarkModeToggle Spoon:**
 * Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
 * Install: Simply double-click to unzip and then double-click the resulting DarkModeToggle.spoon file to move it to your Spoons directory
 
