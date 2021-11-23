@@ -18,10 +18,8 @@ Installation
 * Installation: Simply double-click to unzip and then double-click the resulting DarkModeToggle.spoon file to move it to your \~/.hammerspoon/Spoons directory
 
 **3) Edit the \~/.hammerspoon/init.lua configuration file**
-* Copy/paste the text of one of the sample implementation scripts (below) into your init.lua configuration file.
+* Copy/paste the text of one of the sample implementation scripts (below) into your init.lua configuration file. Then reload/restart Hammerspoon.
 * For more elaborate implementations, the API for this spoon is fully documented in detail below.
-
-**4) Reload/Restart Hammerspoon**
 
 ## Example/Sample implementation(s):
 
