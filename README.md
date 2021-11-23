@@ -15,11 +15,11 @@ Installation
 
 **2) Download & Install the DarkModeToggle Spoon:**
 * Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
-* Install: Simply double-click to unzip and then double-click the resulting DarkModeToggle.spoon file to move it to your Spoons directory
+* Installation: Simply double-click to unzip and then double-click the resulting DarkModeToggle.spoon file to move it to your Spoons directory
 
-**4)** Edit the \~/.hammerspoon/init.lua configuration file
-* Copy/paste the text of one of the sample implementation scripts into your init.lua configuration file.
-* For more elaborate implementations, the API for this spoon is documented in detail below.
+**3) Edit the \~/.hammerspoon/init.lua configuration file**
+* Copy/paste the text of one of the sample implementation scripts (below) into your init.lua configuration file.
+* For more elaborate implementations, the API for this spoon is fully documented in detail below.
 
 ## Example/Sample implementation(s):
 
