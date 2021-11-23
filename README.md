@@ -41,8 +41,6 @@ spoon.DarkModeToggle:bindHotkeys({toggle = {{"ctrl","option","command"},"d"}})
 * Methods - API calls which can only be made on an object returned by a constructor
     * [bindHotkeys](#bindHotkeys)
     * [consoleToolbarItem](#consoleToolbarItem)
-    * [bindHotkeys](#bindHotkeys)
-    * [consoleToolbarItem](#consoleToolbarItem)
     * [darkMode](#darkMode)
     * [isSystemDark](#isSystemDark)
     * [statusMenuIcon](#statusMenuIcon)
