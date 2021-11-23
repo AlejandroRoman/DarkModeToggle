@@ -7,6 +7,11 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 <br>
 <br>
 
+Install
+-------
+
+Install [Hammerspoon](https://www.hammerspoon.org)
+
 Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
 
 Sample implementation(s):
