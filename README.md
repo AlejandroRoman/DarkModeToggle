@@ -17,13 +17,13 @@ Installation
 * Download: [https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip](https://github.com/AlejandroRoman/DarkModeToggle/raw/Master/DarkModeToggle.spoon.zip)
 
 3) Install DarkModeToggle Spoon:
-* Simply unzip and double-click the target DarkModeToggle.spoon file to move it to your Spoons directory
+* Simply double-click to unzip and then double-click the resulting DarkModeToggle.spoon file to move it to your Spoons directory
 
 4) Edit the \~/.hammerspoon/init.lua configuration file
-* Copy/paste the text of one of the example implementations into your init.lua configuration file.
+* Copy/paste the text of one of the sample implementation scripts into your init.lua configuration file.
 * For more elaborate implementations, the API for this spoon is documented in detail below.
 
-Example/Sample implementation(s):
+##Example/Sample implementation(s):
 
 **Toggle Dark Mode by clicking on icons in status menu or HS console toolbar:**
 ```
