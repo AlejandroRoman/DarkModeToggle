@@ -23,7 +23,7 @@ Installation
 * Copy/paste the text of one of the sample implementation scripts into your init.lua configuration file.
 * For more elaborate implementations, the API for this spoon is documented in detail below.
 
-##Example/Sample implementation(s):
+## Example/Sample implementation(s):
 
 **Toggle Dark Mode by clicking on icons in status menu or HS console toolbar:**
 ```
