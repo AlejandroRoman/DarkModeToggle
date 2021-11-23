@@ -10,7 +10,7 @@ Includes an optional menubar icon and a Hammerspoon console toolbar item.
 Installation
 -------
 
-**1 )** Download & Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
+**1)** Download & Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
 * (Homepage: [https://www.hammerspoon.org](https://www.hammerspoon.org))
 
 **2 )** Download the DarkModeToggle Spoon:
