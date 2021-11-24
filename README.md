@@ -11,7 +11,7 @@ Installation
 -------
 
 **1) Download & Install Latest Release of [Hammerspoon](https://www.hammerspoon.org)**
-* Manually: [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)**
+* Manually: [Hammerspoon latest release](https://github.com/Hammerspoon/hammerspoon/releases)
 * Homebrew: '''brew install hammerspoon --cask'''
 
 **2) Download & Install the DarkModeToggle Spoon:**
