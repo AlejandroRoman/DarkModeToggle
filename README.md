@@ -11,8 +11,8 @@ Installation
 -------
 
 **1) Download & Install Latest Release of [Hammerspoon](https://www.hammerspoon.org)**
-* Manually: [Hammerspoon latest release](https://github.com/Hammerspoon/hammerspoon/releases)
-* Homebrew:
+* Manually: [Latest Hammerspoon release](https://github.com/Hammerspoon/hammerspoon/releases)
+* Via Homebrew:
 ```
 brew install --cask hammerspoon
 ```
