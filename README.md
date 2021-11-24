@@ -1,6 +1,6 @@
 # DarkModeToggle  🌙
 <img align="right" width="256" height="160" src="https://raw.githubusercontent.com/AlejandroRoman/DarkModeToggle/Master/Demo.gif">
-Set the system's Dark Mode status.
+Set the MacOS system's Dark Mode status.
 <br>
 <br>
 Includes an optional menubar icon and a Hammerspoon console toolbar item.
